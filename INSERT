@@ -4,5 +4,5 @@ FINAL="/var/macpac/repos/opt-out-of-air"
 
 git add *; git commit -m `date -Is`; git push
 
-mv -v index.html "${FINAL}/"
-mv -v news/index.html "${FINAL}/news"
+cp -v index.html "${FINAL}/"
+cp -v news/index.html "${FINAL}/news"
