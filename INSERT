@@ -1,6 +1,6 @@
 #!/bin/sh -e
 
-FINAL="/var/macpac/repos/opt-out-of-air"
+FINAL="/var/oooa"
 
 git add *; git commit -m `date -Is`; git push
 
