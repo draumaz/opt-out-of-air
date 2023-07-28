@@ -7,4 +7,4 @@ git add *; git commit -m `date -Is`; git push
 cp -v index.html "${FINAL}/"
 cp -v news/index.html "${FINAL}/news"
 
-/usr/games/regen
+/usr/local/bin/regen
